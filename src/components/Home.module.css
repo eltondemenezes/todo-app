@@ -1,0 +1,49 @@
+.main {
+  max-width: 608px;
+  margin: 0 auto;
+}
+
+.main h1 {
+  margin: 32px 0;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: -0.045em;
+  color: #333333;
+}
+
+.tabContainer {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.tab {
+  list-style: none;
+  width: 89px;
+  text-align: center;
+  padding: 15px 0;
+  cursor: pointer;
+}
+
+.activeTab {
+  list-style: none;
+  width: 89px;
+  text-align: center;
+  padding: 15px 0;
+  cursor: pointer;
+  border-bottom: 4px solid #2f80ed;
+}
+
+.deleteButton {
+  float: right;
+  background: #eb5757;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}

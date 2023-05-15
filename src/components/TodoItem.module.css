@@ -1,0 +1,23 @@
+.list {
+    list-style-type: none;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list label span {
+    font-size: 18px;
+}
+
+.list input {
+    margin-right: 10px;
+}
+
+.listItem {
+    text-decoration: line-through;
+}
+
+.icon {
+    cursor: pointer;
+}
